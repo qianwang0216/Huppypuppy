@@ -1,0 +1,24 @@
+#map-canvas img
+{
+    max-width : none;
+}
+
+.infoWindow td {
+    padding: 2px 5px 2px 2px;
+    vertical-align: text-top;
+    min-width: 100px;
+}
+
+.infoWindow img {
+    max-height: 50px;
+}
+
+.dogListItem {
+    margin-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.infoWindow {
+    /*max-width: 350px;*/
+    /*height: 500px;*/
+}

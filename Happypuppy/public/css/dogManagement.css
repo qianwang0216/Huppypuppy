@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2014, 12:10:36 PM
+    Author     : Ben Mo
+*/
+
+.dogInfo
+{   
+    padding-top: 5px;
+    min-height: 390px;
+    float: left !important; 
+    border: 1px black dashed;
+    background-color: #f16921;
+    opacity: 0.8;
+}
+.dogInfo label {
+    color: white !important;
+}
+.dogName {
+    font-size: 120%;
+    font-weight: bold;
+}
+.dogEditForm, .dogAddForm 
+{
+    display: none;
+}
+.dogEmptyAdd {
+
+}
+.dogAddIcon {
+    position: relative;
+    text-align: center;
+    top: 170px;
+}
+.dogAddIcon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.dogActionIcons img {
+    float: right;
+    cursor: pointer;
+    padding: 3px;
+}
+
+label {
+    cursor: default !important;
+}
+
+.dogImage .avatar {
+    max-width: 100px;
+    max-height: 80px;
+}

@@ -1,0 +1,128 @@
+#content{
+    padding-bottom:5%;
+    height:auto;
+}
+.parkwhole{
+    width:70%;
+    margin:0 auto;
+}
+.app{
+   // background-color:rgba(63, 224, 60,0.5); //verde #3fe03c;
+    background-color: #fff;
+    opacity: 0.85;
+    color:#222222;
+    margin-bottom: 20px;
+
+}
+.parkresult{
+    margin:30px;
+    padding-bottom: 30px;
+}
+h2{
+    color:#fff;
+    font-size: 1.3em;
+    text-align: center;
+    //width:60%;
+    //border-bottom: thin #0baa03 solid;
+    margin:0;
+    padding: 10px;
+    //text-transform:uppercase;
+    
+    background: #ff5186;
+    background: -moz-linear-gradient(left, #ff5186 0%, #fcb653 35%, #c7f464 60%, #69d2e7 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff5186), color-stop(35%,#fcb653), color-stop(60%,#c7f464), color-stop(100%,#69d2e7));
+    background: -webkit-linear-gradient(left, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%);
+    text-shadow: 1px 1px rgba(0,0,0,0.7);
+}
+#healthlist{
+    margin-bottom: 20px;
+    width:60%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 30px;
+    
+    //float:left;
+}
+.rainbowhead{
+    //text-transform:uppercase;
+    font-weight: 600;
+    color:#FFF;
+    width:60%;
+    text-align: center;
+    margin:0px auto;
+    padding:20px 0;
+    background: #ff5186; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff5186 0%, #fcb653 35%, #c7f464 60%, #69d2e7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff5186), color-stop(35%,#fcb653), color-stop(60%,#c7f464), color-stop(100%,#69d2e7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%); /* IE10+ */
+    background: linear-gradient(to right, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5186', endColorstr='#69d2e7',GradientType=1 ); /* IE6-9 */   
+}
+#healthlist p{
+    //font-weight: 600;
+    color: #666;
+    line-height: 18px;
+}
+.floatL{
+    //float:left;
+}
+.floatR{
+    //float:right;
+}
+
+.doglist{
+    padding:15px 0 0 20px;
+    //float:left;
+}
+.doggeneral{
+    float:left;
+    width:60%;
+    margin-bottom:15px;
+}
+.dogmedical{
+    //margin-top:15px;
+}
+.fontbold{
+    font-weight: 600;
+    color:FD5F8E;
+}
+.droplist{
+    width:60%;
+}
+.textbox{
+    width:160px;
+    height:35px;
+}
+.textarea{
+    width:160px;
+    height:35px;
+}
+[class*="column"] + [class*="column"]:last-child {
+float: none;
+}
+
+.result{
+    line-height:24px;
+}
+.green{
+ background-color:#89C955; 
+ margin: 3px 0;
+}
+a.button:hover{
+     background: #73E90B;
+}
+span.green1{
+ color:#89C955; 
+}
+
+button.small, .button.small{
+     padding: 10px;
+}
+input[type="submit"]:hover {
+    background-color:#73E90B;
+}
+.fontbold{
+    font-weight: 600;
+    color:#89C955;
+}

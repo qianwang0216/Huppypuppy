@@ -1,0 +1,89 @@
+.signin{
+   // background-color:rgba(63, 224, 60,0.5); //verde #3fe03c;
+    background-color: #fff;
+    opacity: 0.85;
+    color:#222222;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+#psw{
+    width: 70%;
+    display: inline;
+}
+
+.signup{
+   // background-color:rgba(63, 224, 60,0.5); //verde #3fe03c;
+    background-color: #fff;
+    opacity: 0.85;
+    color:#222222;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    width: 70%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+}
+
+
+h2{
+    color:#fff;
+    font-size: 1.5em;
+    //border-bottom: thin #0baa03 solid;
+    margin: -20px -20px 10px -20px;
+    padding: 10px;
+    
+    background: #ff5186;
+    background: -moz-linear-gradient(left, #ff5186 0%, #fcb653 35%, #c7f464 60%, #69d2e7 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff5186), color-stop(35%,#fcb653), color-stop(60%,#c7f464), color-stop(100%,#69d2e7));
+    background: -webkit-linear-gradient(left, #ff5186 0%,#fcb653 35%,#c7f464 60%,#69d2e7 100%);
+    text-shadow: 1px 1px rgba(0,0,0,0.7);
+}
+
+
+h3{
+    font-size: 0.9em;
+    //border-bottom: thin solid rgba(11, 170, 3, 0.5);
+    padding: 0px;
+}
+
+a:link {
+text-decoration:#00c4e2;
+color: #00a2e2;
+}
+
+#content {
+    padding-bottom: 5%;
+    height: 1280px;
+}
+
+#btn_registration{
+    border-style: solid;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: #008cba;
+    color: white;
+    transition: background-color 300ms ease-out;
+}
+.error{
+    color: red;
+    font-weight: bold;
+}
